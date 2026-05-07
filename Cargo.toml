@@ -1,0 +1,15 @@
+[package]
+name = "tidelike"
+version = "0.1.0"
+edition = "2024"
+
+[profile.release]                                                                                                                                            
+debug = false                                                                                                                                                
+strip = true
+#opt-level = 3                                                                                                                                               
+opt-level = 's'  # Optimize for size.                                                                                                                        
+panic = 'abort'
+lto = true                                                                                                                                                   
+codegen-units = 1          
+
+[dependencies]
