@@ -1,5 +1,5 @@
 {
-  description = "Search for text inside emails";
+  description = "Change file path to shortest unique form, like tide does";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
